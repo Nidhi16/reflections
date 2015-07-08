@@ -22,3 +22,6 @@ Question6:- What is the result of merging two branches together? Why do we repre
 
 Answer:- When we merge two branches like git branch first second, as first and second is the branch name, the first branch will have all the contents of itself along with the second branch and the histories of commits are also merged. when we run git log command the history of commits are shown by the timespan when the commit is made. To understand the way how the progress goes and to check the reachability of commits we make the diagrams.
 
+Question7:- What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Answer:- The advantage of Git's automatic merging is that it automatically merges the contents of files and the commit history. The disadvantage is that when the conflict occur it couldn't merge the files.
