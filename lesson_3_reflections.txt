@@ -1,1 +1,3 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+When we want to collaborate with people, when we want to work on a big project by collaborating with our team member then we want to create a remote repository. Also by creating remote repository all of our works is saved when our laptop or machine which we worked upon is crashed or lost or damaged by some reason, then still we can see our repositories by another laptop or machines.
