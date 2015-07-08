@@ -17,3 +17,8 @@ Answer:- When we want to work on different types of features or want to fix bug 
 Question5:- How do the diagrams help you visualize the branch structure?
 
 Answer:- Diagram illusturates all the commits of each branch from the most recent commit to its parent commit upto to the commit which have no parents.
+
+Question6:- What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Answer:- When we merge two branches like git branch first second, as first and second is the branch name, the first branch will have all the contents of itself along with the second branch and the histories of commits are also merged. when we run git log command the history of commits are shown by the timespan when the commit is made. To understand the way how the progress goes and to check the reachability of commits we make the diagrams.
+
