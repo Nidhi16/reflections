@@ -1,0 +1,31 @@
+Question1:- How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Answer:- diff compares the two versions of file line bye line.If there is a bug or error found in any line of old version found as compared to new version or vice versa then it reports a error message on the command line.It specifies the line number for both versions of file were error has occurred.
+
+Question2:- How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Answer:- When you look through history of previous versions of your file, you can clearly see the changes you have made in all the versions to make the things more efficient.You can see what you have added or what you have deleted in the current version by comparing the two versions or more.This helps you to easily debug your program and makes you a more efficient programmer in the long term.
+
+Question3:- What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Answer:- The advantage of manually choosing to create a commit is that we commit when we find a clear and logical change in our code. As for example when we fixes all the typos in our code and then commit it, we would see the logical change in the next version. Other example is when we fixes all the bugs and then commit it, then this is also a logical change. clearly we see that each commit have one valid purpose that can be easily understood. And Git also allows us to write a short message when we manually create a commit to explain what was changed in each commit.
+
+The disadvantage, i think, is that probably we forget to commit when we are in hurry. And this lead to some difficulties like we can not figure out what changes we have made a day before or week before.
+
+Question4:- Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Answer:- If a company gives us a project then we have to make a repository of files to complete that project, and if to make that project we create three to four files then we can make changes in every file one at a time or at different time intervals. If to run a project successfully, we have to made a change in all the files, Git allows us to do that effectively.
+
+Question5:- How can you use the commands git log and git diff to view the history of files?
+
+Answer:- when you type git log, it displays the table full of commits that we have done, it also displays the commit id, author of the commit which means who have done each commit and also display the date and time of each commit. when we type git diff follow by git ids, we can see all the changes that has made in later version like how many lines are added or deleted as compared to previous version.
+
+Question6:- How might using version control make you more confident to make changes that could break something?
+
+Answer:- If we make changes in a version that could break something then we can revert back on that version using git checkout command and then we can find the bugs or error introduced in that version. And then we resolve the bug and proceed later.
+
+Question7:- Now that you have your workspace set up, what do you want to try using Git for?
+
+Answer:- I would try to make repositories of my projects.
+
+
