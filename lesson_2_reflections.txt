@@ -5,3 +5,7 @@ Answer:- When we initialize a repository by typing git init command then a empty
 Question2:- How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Answer:- Staging area is an intermediate area uses by git. In staging area we can add files and that files are tracked by the Git and, which can not be tracked by Git when the files are in working directory.By adding files in staging area it is not meant that files are commited or files are added to the Git repository, it means that files are ready to be commited.In staging area we can add files one at a time and then we will commit the whole thing in the staging area to make commit small and logical.Commit bundles all thing as one commit or one logical change.
+
+Question3:-How can you use the staging area to make sure you have one commit per logical change?
+
+Answer:- In staging area, we can add as much files as we are willing to add, one at a time. And then commit them. Commit make a bundle of all changes as one logical change. For example if we have multiple files in our working directory and we want to modify them and then commit them then first we modify those files and add them one bye one to staging area by typing git add <filename> command and then commit them using git commit -m "with approripate message" , then commit takes all changes in the files as one change. 
