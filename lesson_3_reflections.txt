@@ -5,3 +5,12 @@ When we want to collaborate with people, when we want to work on a big project b
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Because remote server or we can say github can not directly clone our local repos which are on our local computer, so they can not up to date our local repositories. that's why we always pull changes manually to stay up to date with our remote repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+When we clone or make copies of others repository which is hosted on remote servers like Github to our repository which is also on Github, then this process is known as forking.
+When we make copy of other repository which is hosted on remote server like Github or on our local computer to our local computer then this is known as cloning.
+And when we work on a single repository, and break a main file into fragments to do extra features or solve bugs, then this is known as branching.
+We use fork when we want to make copy of others repository on our repository on Github.
+We use clones when we want to make copy of others repository which is on github to our local computer.
+We use branch when we want to add extra features on the project.
