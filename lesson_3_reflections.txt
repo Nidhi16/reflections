@@ -1,12 +1,12 @@
-When would you want to create a remote repository rather than keeping all your work local?
+Question1:- When would you want to create a remote repository rather than keeping all your work local?
 
 When we want to collaborate with people, when we want to work on a big project by collaborating with our team member then we want to create a remote repository. Also by creating remote repository all of our works is saved when our laptop or machine which we worked upon is crashed or lost or damaged by some reason, then still we can see our repositories by another laptop or machines.
 
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Question2:- Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Because remote server or we can say github can not directly clone our local repos which are on our local computer, so they can not up to date our local repositories. that's why we always pull changes manually to stay up to date with our remote repository.
 
-Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Question4:- Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 When we clone or make copies of others repository which is hosted on remote servers like Github to our repository which is also on Github, then this process is known as forking.
 When we make copy of other repository which is hosted on remote server like Github or on our local computer to our local computer then this is known as cloning.
@@ -14,3 +14,11 @@ And when we work on a single repository, and break a main file into fragments to
 We use fork when we want to make copy of others repository on our repository on Github.
 We use clones when we want to make copy of others repository which is on github to our local computer.
 We use branch when we want to add extra features on the project.
+
+
+Question5:- What is the benefit of having a copy of the last known state of the remote stored locally?
+
+When we have a remote set-up, Git stores local copies of all the remote branches.These will each contain the state of the remote branch as of the last time we pushed or pulled the branches. So when we update master branch on the local computer, the local branch gets updated but the local copy of remote branch and on the remote branch,there is no updation occur, when we push the, then after pushing the remote branch on github gets updated along with the local copy of the remote branch.Same thing happen when we update the master branch on remote server like github and then makes pull.
+But sometimes things are not easy and straight forward.sometimes conflict may happen when situation like this happen: When we update our local master branch and don't push it to the corresponding repository on Github and also when update the remote branch also on Github and do not pull it on the local computer then there is a conflict occour. To resolve such type of conflict we have a copy of the last known state of the remote stored locally.
+
+
