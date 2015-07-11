@@ -24,3 +24,7 @@ But sometimes things are not easy and straight forward.sometimes conflict may ha
 Question6:- How would you collaborate without using Git or Github? What would be easier, and what would be harder?
 
 I might use google mail service or google docs. But it might be quiet harder because if i have to change hundread or thousand times then i have to save them in different files with different names, to keep the essence of version control system and i have to mail many times.This would proof to be a tedious work. And there is no easier part of it and if there is then that would be we don't have to remember commands and don't have to use command line but it not a reasonable reason.
+
+Question7:- When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When we want to add some changes to our master branch but with the approval of other peoples or collaboraters to merge the changes, rather than change directly into a master branch. The benefit is that when other people does not like my changes then we will not proceed further, and if they like my changes then we will merge it into the master branch with the approval of other collaborators. 
